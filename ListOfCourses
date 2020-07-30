@@ -1,4 +1,3 @@
-
 intro-to-vue-js/vue-instance
 intro-to-vue-js/attribute-binding
 intro-to-vue-js/conditional-rendering
@@ -115,3 +114,12 @@ Component-Design-Patterns/introduction
 Component-Design-Patterns/props-fundamentals
 vue-3-essentials/why-the-composition-api
 vue-3-deep-dive-with-evan-you
+build-a-gmail-clone-with-vue3/tour-the-project
+build-a-gmail-clone-with-vue3/building-the-inbox
+build-a-gmail-clone-with-vue3/async-setup-and-suspense
+build-a-gmail-clone-with-vue3/axios-and-json-server
+build-a-gmail-clone-with-vue3/opening-an-email
+build-a-gmail-clone-with-vue3/email-modal
+build-a-gmail-clone-with-vue3/keyboard-shortcuts
+build-a-gmail-clone-with-vue3/usekeydown-composable
+build-a-gmail-clone-with-vue3/email-action-bar
