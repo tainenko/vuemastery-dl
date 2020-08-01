@@ -6,14 +6,14 @@ try {
     var data = fs.readFileSync('./data.txt', 'utf8');
     data = data.split("\n");
     data.forEach(function (v) {
-        if(v.length > 10){
+        if (v.length > 10) {
             let id = v.trim();
             id = id.replace('https://player.vimeo.com/video/', '').replace('?', '').replace('autoplay=1', '').replace(/[&?]/gm, '').replace(/app_id=(.*)/gm, '');
             // Default APP ID is 122963
-            startDownloadByID(id,1080,122963);
+            startDownloadByID(id, 1080, 122963);
         }
     })
-} catch(e) {
+} catch (e) {
     console.log('Error on read file:', e.stack);
 }
 
@@ -67,22 +67,30 @@ async function downloadFile(url, name) {
 
 async function getVimeoPageByID(id, quality, appID) {
     return new Promise(function (resolve, reject) {
-        https.get('https://player.vimeo.com/video/' + id + '?autoplay=1&app_id=' + appID, res => {
-            res.setEncoding("utf8");
-            let body = "";
-            res.on("data", data => {
-                body += data;
-            });
-            res.on("end", () => {
-                resolve({
-                    videoURL: findVideoUrl(body, quality),
-                    title: findTitle(body)
+        const headers = {
+            'User-Agent': {
+                'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/27.0.1453.110 Safari/537.36',
+                'Content-Type': 'application/x-www-form-urlencoded'
+            }
+        };
+        https.get('https://player.vimeo.com/video/' + id + '?autoplay=1&app_id=' + appID,
+            {headers: headers}
+            , res => {
+                res.setEncoding("utf8");
+                let body = "";
+                res.on("data", data => {
+                    body += data;
+                });
+                res.on("end", () => {
+                    resolve({
+                        videoURL: findVideoUrl(body, quality),
+                        title: findTitle(body)
+                    });
+                });
+                res.on('error', (e) => {
+                    reject(e)
                 });
             });
-            res.on('error', (e) => {
-                reject(e)
-            });
-        });
     })
 }
 
