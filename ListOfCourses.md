@@ -232,23 +232,23 @@ vue-3-essentials/why-the-composition-api
 
 vue-3-deep-dive-with-evan-you
 
-build-a-gmail-clone-with-vue3/tour-the-project
+[build-a-gmail-clone-with-vue3/tour-the-project](https://player.vimeo.com/video/417686205?autoplay=1&app_id=122963)
 
-build-a-gmail-clone-with-vue3/building-the-inbox
+[build-a-gmail-clone-with-vue3/building-the-inbox](https://player.vimeo.com/video/418119086?autoplay=1&app_id=122963)
 
-build-a-gmail-clone-with-vue3/async-setup-and-suspense
+[build-a-gmail-clone-with-vue3/async-setup-and-suspense](https://player.vimeo.com/video/424719912?autoplay=1&app_id=122963)
 
-build-a-gmail-clone-with-vue3/axios-and-json-server
+[build-a-gmail-clone-with-vue3/axios-and-json-server](https://player.vimeo.com/video/432334269?autoplay=1&app_id=122963)
 
-build-a-gmail-clone-with-vue3/opening-an-email
+[build-a-gmail-clone-with-vue3/opening-an-email](https://player.vimeo.com/video/432334539?autoplay=1&app_id=122963)
 
-build-a-gmail-clone-with-vue3/email-modal
+[build-a-gmail-clone-with-vue3/email-modal](https://player.vimeo.com/video/432334746?autoplay=1&app_id=122963)
 
-build-a-gmail-clone-with-vue3/keyboard-shortcuts
+[build-a-gmail-clone-with-vue3/keyboard-shortcuts](https://player.vimeo.com/video/435917211?autoplay=1&app_id=122963)
 
-build-a-gmail-clone-with-vue3/usekeydown-composable
+[build-a-gmail-clone-with-vue3/usekeydown-composable](https://player.vimeo.com/video/435925588?autoplay=1&app_id=122963)
 
-build-a-gmail-clone-with-vue3/email-action-bar
+[build-a-gmail-clone-with-vue3/email-action-bar](https://player.vimeo.com/video/439008950?autoplay=1&app_id=122963)
 
 [from-vue2-to-vue3/from-vue-2-to-vue-3](https://player.vimeo.com/video/424215562?autoplay=1&app_id=122963)
 
