@@ -250,12 +250,12 @@ build-a-gmail-clone-with-vue3/usekeydown-composable
 
 build-a-gmail-clone-with-vue3/email-action-bar
 
-from-vue2-to-vue3/from-vue-2-to-vue-3
+[from-vue2-to-vue3/from-vue-2-to-vue-3](https://player.vimeo.com/video/424215562?autoplay=1&app_id=122963)
 
-from-vue2-to-vue3/the-new-vmodel
+[from-vue2-to-vue3/the-new-vmodel](https://player.vimeo.com/video/425339512?autoplay=1&app_id=122963)
 
-from-vue2-to-vue3/multi-v-model-bindings
+[from-vue2-to-vue3/multi-v-model-bindings](https://player.vimeo.com/video/427585737?autoplay=1&app_id=122963)
 
-[from-vue2-to-vue3/v-model-modifier](from-vue2-to-vue3/v-model-modifiers)
+[from-vue2-to-vue3/v-model-modifier](https://player.vimeo.com/video/433041737?autoplay=1&app_id=122963)
 
 from-vue2-to-vue3/the-new-$attrs
